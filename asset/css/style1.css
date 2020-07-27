@@ -1,0 +1,265 @@
+
+
+/*BOOK*/
+
+.background {
+	background-image: url("img/room1.jpg");
+	background-size: cover;
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+	z-index:-1;
+}
+.book {
+	background-color: white;
+	width: 962px;
+	height:auto;
+	margin: 0 auto;
+	opacity: 0.8;
+	z-index: 9999;
+}
+.book input[type="text"] {
+	background-color: white;
+	color: #1f1f1f;
+	width: 300px;
+	height: 30px;
+	margin: 10px;
+	font-size: medium;
+	border:2px solid #7878;
+}
+.book input[type="email"] {
+	background-color: white;
+	color: #1f1f1f;
+	width: 300px;
+	height: 30px;
+	margin: 10px 0;
+	font-size: medium;
+	border:2px solid #7878;
+}
+.book input[type="date"] {
+	background-color: white;
+	color: #525252;
+	width: 330px;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+	font-size: medium;
+	border: 2px solid #7878;
+}
+.book select{
+	background-color: white;
+	color: #6c6c6c;
+	width: 464px;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+	font-size: medium;
+	border: 2px solid #7878;
+}
+.book textarea {
+	width: 941px;
+	height: 181px;
+	padding: 10px 0 0 0;
+	box-sizing: border-box;
+	border: 2px solid #7878;
+	border-radius: 4px;
+	background-color: white;
+	resize: none;
+	font-size: larger;
+	margin: 10px;
+}
+.book input[type="submit"] {
+	margin: 30px 10px 80px 10px;
+	padding: 10px 30px;
+	color: white;
+	background-color: #e0c030;
+	border: 2px solid #f8a548;
+}
+.book input[type="submit"]:hover {
+	background-color: #B1A222;
+	border: none;
+}
+
+
+
+
+
+
+
+
+/*login*/
+
+.background_log1{
+	background-color:#B9B9B9;
+	padding:110px
+}
+.user_log1 {
+	background-color: white;
+	width: 962px;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+	padding: 38px;
+	width: 540px;
+	height: auto;
+	border: 3px solid black;
+}
+.user_log1 h3{
+	font-size:28px;
+}
+.user_log1 input[type="text"] {
+	background-color: white;
+	color: #1f1f1f;
+	width: 483px;
+	height: 30px;
+	font-size: medium;
+	border: 2px solid #7878;
+	margin-left: 0px;
+}
+.user_log1 input[type="password"] {
+	background-color: white;
+	color: #1f1f1f;
+	width: 457px;
+	height: 30px;
+	font-size: medium;
+	border: 2px solid #7878;
+	margin-left: 3px;
+}
+.user_log1 input[type="submit"] {
+	margin: 30px 10px 0px 0px;
+	padding: 10px 30px;
+	color: white;
+	background-color: green;
+	border: 1px;
+	border-radius: 4px;
+}
+.user_log1  input[type="submit"]:hover {
+	background-color: #B1A222;
+	border: 2px solid #f8a548;
+	border: none;
+}
+.user_log1 a {
+	text-decoration: none;
+	margin-right: 24px;
+	color: green;
+}
+.user_log1 a:hover {
+	color:black;
+}
+
+
+/*regester*/
+
+.background_log{
+	background-color:#B9B9B9;
+	padding:110px
+}
+.user_log {
+	background-color: white;
+	width: 962px;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+	padding: 28px;
+	width: 540px;
+	height: auto;
+	border: 3px solid black;
+}
+.user_log h3{
+	font-size:28px;
+}
+.user_log input[type="text"] {
+	background-color: white;
+	color: #1f1f1f;
+	width: 386px;
+	height: 30px;
+	font-size: medium;
+	border: 2px solid #7878;
+	margin-left: 0px;
+}
+.user_log input[type="password"] {
+	background-color: white;
+	color: #1f1f1f;
+	width: 388px;
+	height: 30px;
+	font-size: medium;
+	border: 2px solid #7878;
+	margin-left: 3px;
+}
+.user_log input[type="submit"] {
+	margin: 30px 10px 0px 10px;
+	padding: 10px 30px;
+	color: white;
+	background-color: green;
+	border: 1px;
+}
+.user_log input[type="submit"]:hover {
+	background-color: black;
+	border: none;
+}
+
+
+/*Admin update*/
+
+.hi {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	color: grey;
+}
+.hi h1{}
+.add{
+	background-color: green;
+	width: 128px;
+	height: 36px;
+	text-align: center;
+	padding: 4px;
+	float: left;
+	margin-left: 20px;
+	border-radius: 4px;
+	margin-bottom: 40px;
+}
+.add:hover{
+	background-color: black
+}
+.add:hover a{
+	text-decoration: none;
+	color: white;
+}
+.add a{
+	text-decoration: none;
+	color: white;
+}
+.logout {
+	background-color: green;
+	width: 100px;
+	height: 36px;
+	text-align: center;
+	padding: 4px;
+	float: right;
+	margin-right: 20px;
+	border-radius: 4px;
+	margin-bottom: 40px;
+}
+.logout:hover {
+	background-color: black
+}
+.logout:hover a{
+	text-decoration: none;
+	color: white;
+}
+
+.logout a {
+	text-decoration: none;
+	color: white;
+}
+.panel-body tr td a {
+	background-color: green;
+	color: white;
+	padding: 1px 12px;
+	border-radius: 9px;
+	text-decoration: none;
+}
+.panel-body tr td a:hover {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
